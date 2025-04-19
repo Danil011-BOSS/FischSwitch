@@ -1,0 +1,161 @@
+_G.Loader = {
+	["Version"] = "1",
+	["Lock Fps"] = 10, -- Recommend 10 - 15 Fps ++
+	["Allow Reconnect"] = true,
+	["Manager Fishing"] = {
+		["Fishing Location"] = {
+			["Main Position"] = CFrame.new(714.435791015625, 2123.999755859375, 16961.19921875),
+			["Second Sea Position"] = CFrame.new(-401.147736, 77.9856644, -530.163879, -0.761279762, 3.54544234e-08, 0.648423553, 3.49281954e-08, 1, -1.36705287e-08, -0.648423553, 1.2241169e-08, -0.761279762),
+		},
+		["Level Location"] = {
+			["Allow Doing When"] = "Ethereal Prism Rod",
+			["Level Position"] = CFrame.new(-13887.3965, -11048.6885, 350.285706, 0.948456287, 1.08180259e-07, 0.316907942, -1.06977055e-07, 1, -2.11960565e-08, -0.316907942, -1.37983438e-08, 0.948456287),
+		},
+		["Sell Setting"] = {
+			["Allow Sell Event Fish"] = true,
+			["Allow Sell Exotic Fish"] = true,
+			["Allow Sell Mythical Fish"] = true,
+			["Allow Sell Legendary Fish"] = true,
+			["Allow Sell Secret Fish"] = false,
+		},
+	},["Stock Item Before Second Sea"] = {
+		["Allow Doing"] = true,
+		["Effect Luck"] = {
+			["Hour"] = 10,
+		},
+		["Aurora Totem"] = {
+			["Limit"] = 50,
+		},
+	},["Manager Enchant"] = {
+		["Enable"] = true,
+		["Minimum Money"] = 100000,
+		["Select Type Enchant"] = {
+			["Aurora Rod"] = {"Hasty","Clever"},
+			["Poseidon Rod"] = {"Hasty"},
+			["Ethereal Prism Rod"] = {"Clever"},
+			["Blazebringer Rod"] = {"Hasty"},
+		},
+	},
+	["Manager Doing"] = {
+		["Effect Luck"] = {
+			["Allow Buying"] = true,
+			["Minimum Money"] = 50000,
+		},["Aurora Borealis"] = {
+			["Auto Using"] = true,
+			["Allow Purchase"] = true,
+			["Allow Using Sundial Totem"] = true,
+			["Allow Buying Aurora Totem When"] = { 
+				["Money"] = 3500000,
+			},
+		},["Allow Equip"] = {
+			"Carbon Rod",
+			"Rapid Rod",
+			"Aurora Rod",
+			"Poseidon Rod",
+			"Ethereal Prism Rod",
+			"Blazebringer Rod",
+		},["Allow Buying"] = {
+			["Data"] = {
+				"Kings Rod",
+				"Midas Rod",
+				"Abyssal Specter Rod",
+				"Champions Rod",
+				"Depthseeker Rod",
+				"Long Rod",
+				"Phoenix Rod",
+				"Magnet Rod",
+				"Nocturnal Rod",
+				"Scurvy Rod",
+				"Lucky Rod",
+				"Trident Rod",
+				"Mythical Rod",
+				"Zeus Rod",
+				"Tempest Rod",
+				"Kraken Rod",
+				"Destiny Rod",
+			},
+			["Buying After"] = { 
+				["Level"] = 1000,
+			},
+		},["Default Buying"] = {
+			["Carbon Rod"] = true,
+			["Rapid Rod"] = true,
+			["Aurora Rod"] = true,
+			["Kraken Rod"] = true,
+			["Poseidon Rod"] = true,
+			["Ethereal Prism Rod"] = true,
+		},["Default Buying Second Sea"] = {
+			["Firefly Rod"] = true,
+			["Blazebringer Rod"] = true,
+			["Verdant Shear Rod"] = true,
+		},
+		["Rod Of The Depths"] = {
+			["Enable"] = true,
+			["Doing After"] = {
+				["Level"] = 1000,
+				["Money"] = 7500000,
+			},
+		},
+		["Leviathan's Fang Rod"] = {
+			["Enable"] = true,
+			["Doing After"] = {
+				["Level"] = 500,
+				["Money"] = 1200000,
+			},
+		},
+		["Rod Of The Forgotten Fang"] = {
+			["Enable"] = true,
+			["Doing After"] = {
+				["Level"] = 1000,
+				["Money"] = 5050000,
+			},
+		},
+		["Rod Of The Eternal King"] = {
+			["Enable"] = true,
+			["Doing After"] = {
+				["Level"] = 1000,
+				["Money"] = 500000,
+			},
+		},
+		["Submarine Quest"] = {
+			["Enable"] = true,
+			["Doing After"] = {
+				["Level"] = 1000,
+				["Money"] = 1000000,
+			},
+		},
+		["Fungal Rod"] = {
+			["Enable"] = true,
+			["Doing After"] = {
+				["Level"] = 1000,
+				["Money"] = 100000,
+			},
+		},
+		["Magma Rod"] = {
+			["Enable"] = true,
+			["Doing After"] = {
+				["Level"] = 1000,
+				["Money"] = 10000,
+			},
+		},
+		["Heaven's Rod"] = {
+			["Enable"] = true,
+			["Doing After"] = {
+				["Level"] = 1000,
+				["Money"] = 5000000,
+			},
+		},
+		["Auto Second Sea"] = {
+			["Enable"] = true,
+			["Doing After"] = {
+				["Level"] = 1000,
+				["Money"] = 10000000,
+			},
+		},
+	},["Roblox Account Manager"] = {
+		["Auto Sending"] = false, -- READ ME : DONT FORGOT TO SETTING ROBLOX ACC MANEGER
+	},
+}
+
+script_key="KduSXXePwxFlZciDYaeoEdkGgUOryXta";
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f25df23cc82a70074dff9a737d1bc6cc.lua"))()
