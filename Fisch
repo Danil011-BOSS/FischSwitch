@@ -158,4 +158,4 @@ _G.Loader = {
 }
 
 script_key="KduSXXePwxFlZciDYaeoEdkGgUOryXta";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f25df23cc82a70074dff9a737d1bc6cc.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc8d46ab4e8597b45f84c3e6f80ab719.lua"))()
