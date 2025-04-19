@@ -1,15 +1,16 @@
+
 _G.Loader = {
-	["Version"] = "1",
+	["Version"] = "2",
 	["Lock Fps"] = 10, -- Recommend 10 - 15 Fps ++
 	["Allow Reconnect"] = true,
 	["Manager Fishing"] = {
 		["Fishing Location"] = {
-			["Main Position"] = CFrame.new(714.435791015625, 2123.999755859375, 16961.19921875),
+			["Main Position"] = CFrame.new(-13887.3965, -11048.6885, 350.285706, 0.948456287, 1.08180259e-07, 0.316907942, -1.06977055e-07, 1, -2.11960565e-08, -0.316907942, -1.37983438e-08, 0.948456287) * CFrame.new(0, 0, 5),
 			["Second Sea Position"] = CFrame.new(-401.147736, 77.9856644, -530.163879, -0.761279762, 3.54544234e-08, 0.648423553, 3.49281954e-08, 1, -1.36705287e-08, -0.648423553, 1.2241169e-08, -0.761279762),
 		},
 		["Level Location"] = {
 			["Allow Doing When"] = "Ethereal Prism Rod",
-			["Level Position"] = CFrame.new(-13887.3965, -11048.6885, 350.285706, 0.948456287, 1.08180259e-07, 0.316907942, -1.06977055e-07, 1, -2.11960565e-08, -0.316907942, -1.37983438e-08, 0.948456287),
+			["Level Position"] = CFrame.new(-13887.3965, -11048.6885, 350.285706, 0.948456287, 1.08180259e-07, 0.316907942, -1.06977055e-07, 1, -2.11960565e-08, -0.316907942, -1.37983438e-08, 0.948456287) * CFrame.new(0, 0, -5),
 		},
 		["Sell Setting"] = {
 			["Allow Sell Event Fish"] = true,
@@ -17,14 +18,6 @@ _G.Loader = {
 			["Allow Sell Mythical Fish"] = true,
 			["Allow Sell Legendary Fish"] = true,
 			["Allow Sell Secret Fish"] = false,
-		},
-	},["Stock Item Before Second Sea"] = {
-		["Allow Doing"] = true,
-		["Effect Luck"] = {
-			["Hour"] = 10,
-		},
-		["Aurora Totem"] = {
-			["Limit"] = 50,
 		},
 	},["Manager Enchant"] = {
 		["Enable"] = true,
@@ -146,7 +139,7 @@ _G.Loader = {
 			},
 		},
 		["Auto Second Sea"] = {
-			["Enable"] = true,
+			["Enable"] = false,
 			["Doing After"] = {
 				["Level"] = 1000,
 				["Money"] = 10000000,
